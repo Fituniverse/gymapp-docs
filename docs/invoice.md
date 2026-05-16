@@ -4,6 +4,8 @@ title: Gestion des factures
 description: Gerez les factures de votre salle
 ---
 
+import ActionButton from '@site/src/components/ActionButton';
+
 # Gestion des reçus
 
 La gestion des reçus est une fonctionnalité essentielle qui permet d'offrir une preuve tangible des transactions effectuées dans votre salle de sport. Que ce soit pour un abonnement, une session ou l'achat de produits, cette fonctionnalité garantit une transparence totale tout en renforçant la confiance des clients. En automatisant la création de reçus, vous simplifiez les processus administratifs tout en fournissant aux clients un document détaillé de leurs transactions, indispensable pour un suivi rigoureux et professionnel.
@@ -12,7 +14,7 @@ La gestion des reçus est une fonctionnalité essentielle qui permet d'offrir un
 
 ## Consulter un reçu
 
-Pour consulter un reçu de transaction, cliquez sur le bouton de consultation présent dans les listes d'abonnements, de séances et de ventes (_cf. l'exemple ci-après_).
+Pour consulter un reçu de transaction, cliquez sur <ActionButton type="invoice" /> présent dans les listes d'abonnements, de séances et de ventes (_cf. l'exemple ci-après_).
 
 ![invoice btn](/images/screenshots/invoice/invoice_btn.png 'invoice btn')
 
