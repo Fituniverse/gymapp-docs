@@ -4,6 +4,7 @@ const VARIANTS = {
   edit: { icon: 'boxicons:edit', color: '#5E9C57' },
   delete: { icon: 'line-md:trash', color: '#d9534f' },
   reconduct: { icon: 'pepicons-pop:arrow-spin', color: '#4972ca' },
+  restore: { icon: 'pepicons-pop:arrow-spin', color: '#5E9C57' },
   invoice: { icon: 'hugeicons:invoice-03', color: '#8a8691c5' },
   info: { icon: 'fa7-solid:info', color: '#6d6c6c' },
   view: { icon: 'mdi:eye', color: '#5bc0de' },
