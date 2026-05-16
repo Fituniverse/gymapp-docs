@@ -4,6 +4,8 @@ title: Corbeille
 description: Gerez les elements supprimes
 ---
 
+import NavPath from '@site/src/components/NavPath';
+
 # Corbeille
 
 La corbeille est un espace de stockage temporaire où sont conservés les éléments supprimés. Elle permet de restaurer facilement les données en cas de suppression accidentelle ou de besoin ultérieur. Tant qu'un élément reste dans la corbeille, il ne sera pas définitivement supprimé, offrant ainsi une sécurité supplémentaire pour la gestion de vos informations.
@@ -12,8 +14,7 @@ La corbeille est un espace de stockage temporaire où sont conservés les élém
 
 Pour restaurer un évènement, procédez comme suit :
 
-1. Accéder à la liste d'évements supprimés depuis le menu déroulant :  
-   ![navbar trash event](/images/screenshots/trash/nav_event.png 'navbar trash event')
+1. Accéder à la liste d'évements supprimés depuis le menu déroulant : <NavPath items={['CORBEILLE', 'EVENEMENTS']} />
 2. Cliquez sur le bouton correspondant à l'évènement à restaurer pour accéder au formulaire de restauration :  
    ![trash event btn](/images/screenshots/trash/event_restore_btn.png 'trash event btn')
 3. Confirmez la restauration une fois de formulaire de restauration ouvert :  
@@ -23,9 +24,7 @@ Pour restaurer un évènement, procédez comme suit :
 
 Pour restaurer un client, procédez comme suit :
 
-1. Accéder à la liste des clients supprimés depuis le menu déroulant :  
-   ![navbar trash customer](/images/screenshots/trash/nav_customer.png 'navbar trash customer')
-
+1. Accéder à la liste des clients supprimés depuis le menu déroulant : <NavPath items={['CORBEILLE', 'CLIENTS']} />
 2. Cliquez sur le bouton correspondant au client à restaurer pour accéder au formulaire de restauration:
    ![trash customer btn](/images/screenshots/trash/customer_restore_btn.png 'trash customer btn')
 
@@ -36,8 +35,7 @@ Pour restaurer un client, procédez comme suit :
 
 Pour restaurer un évènement, procédez comme suit :
 
-1. Accéder à la liste des forfaits supprimés depuis le menu déroulant :  
-   ![navbar trash package](/images/screenshots/trash/nav_package.png 'navbar trash package')
+1. Accéder à la liste des forfaits supprimés depuis le menu déroulant : <NavPath items={['CORBEILLE', 'FORFAITS']} />
 
 2. Cliquez sur le bouton correspondant au forfait à restaurer :
    ![btn trash package](/images/screenshots/trash/package_restore_btn.png 'btn trash package')
@@ -52,8 +50,7 @@ Vérifiez le nom de la section à droite pour confirmer le type de forfait à re
 
 Pour restaurer un article, procédez comme suit :
 
-1. Accéder à la liste des articles supprimés depuis le menu déroulant :  
-   ![navbar trash product](/images/screenshots/trash/nav_product.png 'navbar trash product')
+1. Accéder à la liste des articles supprimés depuis le menu déroulant : <NavPath items={['CORBEILLE', 'ARTICLES']} />
 
 2. Cliquez sur le bouton correspondant à l'article à restaurer pour accéder au formulaire de restauration :  
    ![trash product btn](/images/screenshots/trash/product_restore_btn.png 'trash product btn')

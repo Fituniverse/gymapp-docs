@@ -4,6 +4,8 @@ title: Gestion des paiements
 description: Gerez les paiements de votre salle
 ---
 
+import NavPath from '@site/src/components/NavPath';
+
 # Réabonnement au service GYMAPP
 
 Le réabonnement est une étape essentielle pour continuer à bénéficier des outils performants et des services que nous mettons à votre disposition. Avec notre plateforme SaaS, le renouvellement de votre accès aux fonctionnalités clés, comme la gestion des abonnements, des ventes, des événements et des clients, est simple et rapide. Nous avons conçu ce processus pour garantir une continuité fluide de vos activités, sans aucune interruption.
@@ -25,8 +27,7 @@ Afin de garantir une transition fluide, vous pouvez renouveler votre abonnement 
 
 ---
 
-1. Accédez à l'interface de réabonnement depuis le menu déroulant :  
-   ![navbar payment](/images/screenshots/payment/nav_payment.png 'navbar payment')
+1. Accédez à l'interface de réabonnement depuis le menu déroulant : <NavPath items={['SERVICE GYMAPP', 'REABONNEMENT AU SERVICE']} />
 
 2. Sélectionnez la formule souhaitée et cliquez sur se réabonner :
 
@@ -39,8 +40,7 @@ En cas de questions ou d’assistance, notre support reste disponible pour vous 
 
 ## Consulter l'historique des transactions
 
-Accédez à l'historique des transactions depuis le menu déroulant :  
- ![payment historic](/images/screenshots/payment/nav_pay_historic.png 'payment historic')
+Accédez à l'historique des transactions depuis le menu déroulant : <NavPath items={['SERVICE GYMAPP', 'HISTORIQUE']} />
 
 Vous accéderez à l'historique des transactions depuis votre soubscription :  
  ![payment historic](/images/screenshots/payment/historic.png 'payment historic')

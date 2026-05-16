@@ -4,6 +4,8 @@ title: Gestion des clients
 description: Gerez les clients de votre salle
 ---
 
+import NavPath from '@site/src/components/NavPath';
+
 # Gestion de la clientèle
 
 La gestion de la clientèle est une fonctionnalité centrale pour établir et maintenir une relation de confiance avec vos clients. Elle permet d'organiser et de suivre efficacement les informations essentielles, telles que les coordonnées, les abonnements, les participations aux sessions, et les transactions. Grâce à cette fonctionnalité, vous pouvez offrir un service personnalisé, fidéliser votre clientèle, et prendre des décisions stratégiques basées sur des données fiables. En facilitant le suivi des interactions et des besoins des clients, la gestion de la clientèle contribue à améliorer l'expérience utilisateur tout en optimisant les opérations de votre salle de sport.
@@ -18,8 +20,7 @@ Les clients sont **ajoutés automatiquement** lorsqu'ils **souscrivent à un abo
 
 ## Accéder aux détails d'un client
 
-1. Accédez à la liste des clients via le menu déroulant :
-   ![customer list](/images/screenshots/customer/nav_list.png 'customer list')
+1. Accédez à la liste des clients via le menu déroulant : <NavPath items={['CLIENTELE']} />
 
 2. Cliquez sur le bouton correspondant au client :
    ![customer view btn](/images/screenshots/customer/view_btn.png 'customer view btn')

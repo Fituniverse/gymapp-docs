@@ -4,6 +4,8 @@ title: Gestion des seances
 description: Gerez les seances de vos clients
 ---
 
+import NavPath from '@site/src/components/NavPath';
+
 # Gestion des séances
 
 La gestion des séances est une fonctionnalité centrale qui assure un suivi structuré et efficace des clients de votre salle de sport. Elle vous permet d’inscrire des clients, de gérer leurs séances et de suivre leurs paiements de manière claire et intuitive.
@@ -14,9 +16,7 @@ La gestion des séances est une fonctionnalité centrale qui assure un suivi str
 
 Pour ajouter un séance, procédez comme suit :
 
-1. Accédez au formulaire d'ajout de séances :  
-   ![navbar add session](/images/screenshots/session/nav_add.png 'navbar add session')
-
+1. Accédez au formulaire d'ajout de séances via le menu deroulant: <NavPath items={['SEANCES', 'NOUVELLE SEANCE']} />
 2. Renseignez les informations suivantes :
    - **Informations du client** :
      - _Nom_
@@ -44,8 +44,7 @@ Pour ajouter un séance, procédez comme suit :
 
 ## **Modifier une séance**
 
-1. Accédez à la liste des séances via le menu déroulant :  
-   ![navbar list session](/images/screenshots/session/nav_list.png 'navbar list session')
+1. Accédez à la liste des séances via le menu déroulant : <NavPath items={['SEANCES', 'LISTE SEANCES']} />
 
 2. Cliquez sur le bouton correspondant à la séance pour ouvrir le formulaire de modification.  
    ![edit session btn](/images/screenshots/session/edit_btn.png 'edit session btn')

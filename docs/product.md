@@ -4,6 +4,8 @@ title: Gestion des stocks
 description: Gerez les produits de votre salle
 ---
 
+import NavPath from '@site/src/components/NavPath';
+
 # Gestion des stocks
 
 La gestion des stocks est une fonctionnalité essentielle pour garantir une organisation optimale des ressources de votre salle de sport. Elle vous permet de suivre, en temps réel, l'état des articles disponibles (équipements, accessoires, produits à vendre, etc.), d’anticiper les besoins en réapprovisionnement et de minimiser les pertes.
@@ -16,8 +18,7 @@ Grâce à cette fonctionnalité, vous pouvez enregistrer de nouveaux articles, m
 
 Pour ajouter un article, procédez comme suit :
 
-1. Accédez au formulaire d'ajout d'articles :  
-   ![Formulaire d'ajout d'article](/images/screenshots/product/nav_add.png 'navbar add product')
+1. Accédez au formulaire d'ajout d'articles via le menu déroulant : <NavPath items={['STOCK', 'NOUVEL ARTICLE']} />
 
 2. Renseignez les informations suivantes :
    - **Informations requises** :
@@ -38,8 +39,7 @@ Pour ajouter un article, procédez comme suit :
 
 ## Voir les détails d'un article
 
-1. Accédez à la liste des articles via le menu déroulant :  
-   ![Liste des articles](/images/screenshots/product/nav_list.png 'navbar list product')
+1. Accédez à la liste des articles via le menu déroulant : <NavPath items={['STOCK', "LISTE D'ARTICLES"]} />
 
 2. Cliquez sur le bouton correspondant à l'article :  
    ![Bouton détails article](/images/screenshots/product/info_btn.png 'info product btn')
@@ -104,8 +104,7 @@ La gestion des catégories permet d’organiser vos articles de manière structu
 
 Pour ajouter une catégorie, procédez comme suit :
 
-1. Accédez à la liste des catégories via le menu déroulant :  
-   ![Accéder à la liste des catégories](/images/screenshots/product/nav_category.png 'category list')
+1. Accédez à la liste des catégories via le menu déroulant : <NavPath items={['STOCK', "CATEGORIES"]} />
 
 2. Cliquez sur le bouton **AJOUTER** :  
    ![Bouton ajouter catégorie](/images/screenshots/product/add_category_btn.png 'category add btn')

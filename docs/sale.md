@@ -4,6 +4,8 @@ title: Gestion des ventes
 description: Gerez les ventes de votre salle
 ---
 
+import NavPath from '@site/src/components/NavPath';
+
 # Gestion des ventes
 
 La gestion des ventes est une fonctionnalité essentielle pour suivre et optimiser les transactions dans votre salle de sport. Que ce soit pour la vente d’équipements, d’accessoires ou de produits divers, cet outil offre une traçabilité complète des opérations, de l’enregistrement des ventes à l’analyse des revenus. En facilitant la gestion des transactions, cette fonctionnalité contribue à la satisfaction des clients tout en augmentant la rentabilité de votre établissement.
@@ -14,8 +16,7 @@ La gestion des ventes est une fonctionnalité essentielle pour suivre et optimis
 
 Pour ajouter une vente, procédez comme suit :
 
-1. Accédez à la liste de sélection des articles via le menu déroulant :
-   ![navbar add session](/images/screenshots/sale/nav_add.png 'navbar add session')
+1. Accédez à la liste de sélection des articles via le menu déroulant : <NavPath items={['VENTE', 'NOUVELLE VENTE']} />
 
 **2. Sélectionnez les articles souhaités :**
 
@@ -38,13 +39,12 @@ Pour ajouter une vente, procédez comme suit :
 
 Pour supprimer une vente, procédez comme suit :
 
-1. Accédez à la liste des ventes via le menu déroulant :
-   ![navbar list sale](/images/screenshots/sale/sale_list.png 'navbar list sale')
+1. Accédez à la liste des ventes via le menu déroulant : <NavPath items={['VENTE', 'LISTE VENTES']} />
 
 2. Cliquez sur le bouton de correspondant à la vente à supprimer :
    ![delete sale btn](/images/screenshots/sale/sale_delete_btn.png 'delete sale btn')
 
-3. Confirmez la suppression depuis la fenêtre de confirmation :\*\*  
+3. Confirmez la suppression depuis la fenêtre de confirmation :
    ![confirm delete sale btn](/images/screenshots/sale/delete_popup.png 'confirm delete sale btn')
 
 :::danger[Attention]

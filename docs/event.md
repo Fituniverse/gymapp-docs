@@ -4,6 +4,8 @@ title: Gestion des evenements
 description: Gerez les evenements de votre salle
 ---
 
+import NavPath from '@site/src/components/NavPath';
+
 # Gestion des événements
 
 La gestion des événements est conçue pour être efficacement managée, offrant aux responsables la possibilité de planifier, coordonner et suivre toutes les activités spéciales organisées au sein de la salle de sport. Cette fonctionnalité garantit une organisation fluide et professionnelle des événements.
@@ -12,8 +14,7 @@ La gestion des événements est conçue pour être efficacement managée, offran
 
 ## Ajouter un événement
 
-1. Accédez à la liste des événements via le menu déroulant :
-   ![nav event](/images/screenshots/calendar/nav_calendar.png 'nav event')
+1. Accédez à la liste des événements via le menu déroulant : <NavPath items={['CALENDRIER']} />
 
 2. Cliquez sur le bouton **ajouter un évènement** pour accéder au formulaire d'ajout :
    ![calendar](/images/screenshots/calendar/calendar.png 'calendar')

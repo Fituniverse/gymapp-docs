@@ -4,6 +4,8 @@ title: Gestion des forfaits
 description: Gerez les forfaits de votre salle
 ---
 
+import NavPath from '@site/src/components/NavPath';
+
 # Gestion des forfaits
 
 La gestion des forfaits est un élément clé pour adapter les services de votre salle de sport aux besoins de vos clients. En tant que super-utilisateur, vous pouvez définir différents types de forfaits (concernant les abonnements comme les séances), en précisant les avantages et les conditions associés. Cette fonctionnalité vous permet d’offrir des options flexibles et personnalisées à votre clientèle, tout en maintenant un suivi clair des souscriptions et paiements.
@@ -14,8 +16,7 @@ La gestion des forfaits est un élément clé pour adapter les services de votre
 
 Vous pouvez ajouter un ou plusieurs forfaits pour gérer les souscriptions de vos clients. Voici comment procéder :
 
-1. Accédez à l'interface de gestion des forfaits :  
-   ![navbar package](/images/screenshots/package/nav_package.png 'navbar package')
+1. Accédez à l'interface de gestion des forfaits via le menu déroulant : <NavPath items={['FORFAITS', 'ABONNEMENTS']} /> ou <NavPath items={['FORFAITS', 'SEANCES']} />
 
 2. Cliquez sur le bouton **AJOUTER UN FORFAIT**. Vous serez redirigé vers un formulaire d'ajout de forfait :  
    ![add btn](/images/screenshots/package/add_btn.png 'add btn')
@@ -24,6 +25,8 @@ Vous pouvez ajouter un ou plusieurs forfaits pour gérer les souscriptions de vo
    - _Nom_
    - _Montant_
    - _Description_
+   - _Périodicité_ (uniquement pour les forfaits d’abonnement)
+   - _Durée_ (uniquement pour les forfaits d’abonnement)
 
    ![add form](/images/screenshots/package/add_form.png 'add form')
 

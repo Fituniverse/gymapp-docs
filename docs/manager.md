@@ -4,6 +4,8 @@ title: Gestion des administrateurs
 description: Gerez les administrateurs de votre salle
 ---
 
+import NavPath from '@site/src/components/NavPath';
+
 # Gestion des managers
 
 La gestion des managers est une étape essentielle pour organiser et superviser les activités de votre salle de sport. En tant que super-utilisateur, vous avez la possibilité d'ajouter, de modifier ou de supprimer des comptes au profit de managers.
@@ -16,11 +18,7 @@ Cette gestion, à la fois simplifiée et centralisée, vous permet d’attribuer
 
 Vous pouvez ajouter un ou plusieurs managers pour optimiser la gestion de votre salle. Voici comment procéder :
 
-1. Accédez au formumaire d'ajout de manager via le menu déroulant :
-
-   ![add manager](/images/screenshots/manager/nav_add_manager.png 'add manager')
-
-   > **Note:** Le nombre de managers actifs est limité par les conditions de votre forfait. Veuillez en tenir compte lors de l'ajout d'un nouveau manager.
+1. Accédez au formumaire d'ajout de manager via le menu déroulant : <NavPath items={['MANAGERS', 'AJOUTER UN MANAGER']} />
 
 2. Renseignez les données personnelles suivantes :
    - _Nom et prénoms_
@@ -34,8 +32,9 @@ Vous pouvez ajouter un ou plusieurs managers pour optimiser la gestion de votre 
 
 :::info
 
-**Info1 :** Le mot de passe par défaut est **password**. Pour des raisons de sécurité, nous recommandons que le manager change immédiatement ce mot de passe dès la première connexion. Suivez les étapes décrites dans la section [Réinitialisation de mot de passe](login.md#2---réinitialisation-de-mot-de-passe).  
-**info 2 :** Si vous activez les **privilèges Super-Utilisateur**, le manager disposera de toutes les permissions dans l'application. Sinon, vous devrez définir les permissions et rôles manuellement.
+- Le nombre de managers actifs dépend des limites de votre forfait. Veuillez en tenir compte lors de l’ajout d’un nouveau manager.
+- Le mot de passe par défaut est password. Par mesure de sécurité, il est recommandé de le modifier dès la première connexion. Les étapes sont détaillées dans la section Réinitialisation de mot de passe.
+- L’activation des privilèges Super-Utilisateur donne un accès complet à l’application. Sinon, les permissions et rôles doivent être configurés manuellement.
 
 :::
 
@@ -45,8 +44,7 @@ Vous pouvez ajouter un ou plusieurs managers pour optimiser la gestion de votre 
 
 L'attribution de rôles et permissions permet de personnaliser l'accès aux données et fonctionnalités en fonction des responsabilités de chaque manager.
 
-1. Accédez à la liste des managers via le menu déroulant :  
-   ![navbar list manager](/images/screenshots/manager/nav_list_manager.png 'navbar list manager')
+1. Accédez à la liste des managers via le menu déroulant : <NavPath items={['MANAGERS', 'LISTE DES MANAGERS']} />
 
 2. Cliquez sur le bouton correspondant au manager pour accéder au formulaire de définition des rôles et permissions :
    ![List manager](/images/screenshots/manager/list_manager.png 'List manager')

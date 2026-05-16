@@ -4,6 +4,8 @@ title: Gestion des abonnements
 description: Gerez les abonnements de vos clients
 ---
 
+import NavPath from '@site/src/components/NavPath';
+
 # Gestion des abonnements
 
 La gestion des abonnements est une fonctionnalité centrale qui assure un suivi structuré et efficace des clients de votre salle de sport. Elle vous permet d’inscrire des clients, de gérer leurs souscriptions et de suivre leurs paiements de manière claire et intuitive.
@@ -14,8 +16,7 @@ La gestion des abonnements est une fonctionnalité centrale qui assure un suivi 
 
 Pour ajouter un abonnement, procédez comme suit :
 
-1. Accédez au formulaire d'ajout d'abonnements :  
-   ![navbar add subscription](/images/screenshots/subscription/nav_add.png 'navbar add subscription')
+1. Accédez au formulaire d'ajout d'abonnements via le menu deroulant : <NavPath items={['ABONNEMENTS', 'NOUVEL ABONNEMENT']} />
 
 2. Renseignez les informations suivantes :
    - **Informations du client** :
@@ -37,8 +38,7 @@ Pour ajouter un abonnement, procédez comme suit :
 
 ## **Modifier un abonnement**
 
-1. Accédez à la liste des abonnements via le menu déroulant :  
-   ![navbar list subscription](/images/screenshots/subscription/nav_list.png 'navbar list subscription')
+1. Accédez à la liste des abonnements via le menu déroulant : <NavPath items={['ABONNEMENTS', "LISTE D'ABONNEMENTS"]} />
 
 2. Cliquez sur le bouton correspondant à l'abonnement pour ouvrir le formulaire de modification.  
    ![edit subscription btn](/images/screenshots/subscription/edit_btn.png 'edit subscription btn')
