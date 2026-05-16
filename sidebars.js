@@ -18,7 +18,7 @@ const sidebars = {
   docs: [
     { type: 'doc', id: 'register', label: 'Inscription' },
     { type: 'doc', id: 'login', label: 'Connexion' },
-    { type: 'doc', id: 'manager', label: 'Gestion des administrateurs' },
+    { type: 'doc', id: 'manager', label: 'Gestion des managers' },
     { type: 'doc', id: 'customer', label: 'Gestion des clients' },
     { type: 'doc', id: 'subscription', label: 'Gestion des abonnements' },
     { type: 'doc', id: 'session', label: 'Gestion des séances' },
