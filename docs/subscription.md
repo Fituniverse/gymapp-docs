@@ -5,6 +5,7 @@ description: Gerez les abonnements de vos clients
 ---
 
 import NavPath from '@site/src/components/NavPath';
+import ActionButton from '@site/src/components/ActionButton';
 
 # Gestion des abonnements
 
@@ -32,7 +33,7 @@ Pour ajouter un abonnement, procédez comme suit :
      - _Nombre de mois_
      - _Forfait_ (cf. [Gestion des forfaits](package.md#gestion-des-forfaits))
 
-   ![adding Form](/images/screenshots/subscription/add_form.png 'adding Form')
+   ![adding Form](/images/screenshots/subscription/add.png 'adding Form')
 
 ---
 
@@ -40,13 +41,13 @@ Pour ajouter un abonnement, procédez comme suit :
 
 1. Accédez à la liste des abonnements via le menu déroulant : <NavPath items={['ABONNEMENTS', "LISTE D'ABONNEMENTS"]} />
 
-2. Cliquez sur le bouton correspondant à l'abonnement pour ouvrir le formulaire de modification.  
-   ![edit subscription btn](/images/screenshots/subscription/edit_btn.png 'edit subscription btn')
+2. Cliquez sur <ActionButton type="edit" /> pour ouvrir le formulaire de modification.  
+   ![edit subscription btn](/images/screenshots/subscription/list.png 'edit subscription btn')
 
 3. Modifiez les informations souhaitées et cliquez sur **MODIFIER ABONNEMENT**.  
-   ![edit subscription form](/images/screenshots/subscription/edit_form.png 'edit subscription form')
+   ![edit subscription form](/images/screenshots/subscription/edit.png 'edit subscription form')
 
-:::info
+:::warning
 
 La modification d’un abonnement met à jour automatiquement les statistiques dans les tableaux de bord.
 
@@ -56,8 +57,8 @@ La modification d’un abonnement met à jour automatiquement les statistiques d
 
 ## **Reconduire un abonnement**
 
-1. Cliquez sur le bouton correspondant à l’abonnement à reconduire :  
-   ![reconduct subscription btn](/images/screenshots/subscription/reconduct_btn.png 'reconduct subscription btn')
+1. Cliquez sur <ActionButton type="reconduct" /> pour ouvrir le formulaire de reconduction :  
+   ![reconduct subscription btn](/images/screenshots/subscription/list.png 'reconduct subscription btn')
 
 :::info
 Ce bouton devient disponible une fois l’abonnement arrivé à son terme.
@@ -65,17 +66,17 @@ Ce bouton devient disponible une fois l’abonnement arrivé à son terme.
 :::
 
 2. Renseignez les informations du nouvel abonnement, puis confirmez la reconduction.  
-   ![reconduct subscription form](/images/screenshots/subscription/reconduct_form.png 'reconduct subscription form')
+   ![reconduct subscription form](/images/screenshots/subscription/reconduct.png 'reconduct subscription form')
 
 ---
 
 ## **Supprimer un abonnement**
 
-1. Cliquez sur le bouton correspondant à l'abonnement pour accéder au formulaire de suppression :  
-   ![delete subscription btn](/images/screenshots/subscription/delete_btn.png 'delete subscription btn')
+1. Cliquez sur <ActionButton type="delete" /> pour ouvrir le formulaire de suppression :  
+   ![delete subscription btn](/images/screenshots/subscription/list.png 'delete subscription btn')
 
 2. Confirmez la suppression de l'abonnement une fois le formulaire ouvert
-   ![delete subscription form](/images/screenshots/subscription/delete_form.png 'delete subscription form')
+   ![delete subscription form](/images/screenshots/subscription/delete.png 'delete subscription form')
 
 :::danger[Attention]
 
