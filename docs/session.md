@@ -1,4 +1,10 @@
-![GymApp Logo](/images/logo_md.png "GymApp Logo")
+﻿---
+id: session
+title: Gestion des seances
+description: Gerez les seances de vos clients
+---
+
+
 
 # Gestion des séances
 
@@ -77,9 +83,3 @@ Pour ajouter un séance, procédez comme suit :
    > **Note** : La suppression d’une séance est **irréversible** et met à jour automatiquement les statistiques dans les tableaux de bord.
 
 ---
-
-## **Liens de navigation**
-
-- [_Retour au Sommaire_](table.md)  
-- [_Page précédente : Gestion des abonnements_](subscription.md)  
-- [_Page suivante : Gestion de stock_](product.md)

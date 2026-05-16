@@ -1,4 +1,10 @@
-![GymApp Logo](/images/logo_md.png "GymApp Logo")
+﻿---
+id: manager
+title: Gestion des administrateurs
+description: Gerez les administrateurs de votre salle
+---
+
+
 
 # Gestion des managers
 
@@ -75,11 +81,3 @@ L'attribution de rôles et permissions permet de personnaliser l'accès aux donn
     ![update manager](/images/screenshots/manager/activate_manager.png "update manager")
 
     > **Note:**  Le nombre de managers actifs est limité par les conditions de votre forfait. Veuillez en tenir compte lors de l'activation d'un manager. 
-
----
-
-## **Lien de navigation**
-
-- [_Retour au Sommaire_](table.md)  
-- [_Page précedente : Connexion à l'application_](login.md)  
-- [_Page suivante : Gestion des forfaits_](package.md)  

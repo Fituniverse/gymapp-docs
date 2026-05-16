@@ -1,4 +1,10 @@
-![GymApp Logo](/images/logo_md.png "GymApp Logo")  
+﻿---
+id: invoice
+title: Gestion des factures
+description: Gerez les factures de votre salle
+---
+
+
 
 # Gestion des reçus
 
@@ -32,10 +38,3 @@ Vous pouvez télécharger le reçu autant de fois que nécessaire en cliquant su
 
 **3. Imprimer un reçu**  
 Si vous disposez d'une imprimante, vous pouvez imprimer un reçu autant de fois que souhaité en cliquant sur le bouton **Imprimer**.
-
----
-## **Liens de navigation**
-
-- [_Retour au Sommaire_](table.md)  
-- [_Page précedente : Gestion de stock_](product.md)   
-- [_Page suivante : Gestion de la clientèle_](customer.md) 

@@ -1,4 +1,10 @@
-![GymApp Logo](/images/logo_md.png "GymApp Logo")  
+﻿---
+id: payment
+title: Gestion des paiements
+description: Gerez les paiements de votre salle
+---
+
+
 
 # Réabonnement au service GYMAPP  
 
@@ -37,9 +43,3 @@ Accédez à l'historique des transactions depuis le menu déroulant :
 
 Vous accéderez à l'historique des transactions depuis la premier abonnement au service  :  
     ![payment historic](/images/screenshots/payment/historic.png "payment historic")  
-
----
-## **Liens de navigation**
-
-- [_Retour au Sommaire_](table.md)  
-- [_Page précedente : Corbeille_](trash.md)

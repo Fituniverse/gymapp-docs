@@ -1,4 +1,10 @@
-![GymApp Logo](/images/logo_md.png "GymApp Logo")
+﻿---
+id: login
+title: Prise en main
+description: Connectez-vous a votre espace GymApp
+---
+
+
 
 # Accéder à votre espace GYMAPP
 
@@ -50,10 +56,3 @@ En cliquant sur le lien de réinitialisation, vous serez redirigé vers une page
 
 Une fois le nouveau mot de passe enregistré, vous pourrez vous connecter via [l'interface de connexion](#se-connecter).
 
----
-
-## **Liens de navigation**
-
-- [_Retour au Sommaire_](table.md)  
-- [_Page précedente : Enregistrement de la salle_](register.md)   
-- [_Page suivante : Gestion des managers_](manager.md)  

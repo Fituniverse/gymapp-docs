@@ -1,4 +1,10 @@
-![GymApp Logo](/images/logo_md.png "GymApp Logo")
+﻿---
+id: package
+title: Gestion des forfaits
+description: Gerez les forfaits de votre salle
+---
+
+
 
 # Gestion des forfaits
 
@@ -46,11 +52,3 @@ Vous pouvez ajouter un ou plusieurs forfaits pour gérer les souscriptions de vo
    > **Notes:**
    > - La suppression d'un forfait n'entraîne pas **la suppression de toutes les entrées (Abonnements, Séances) liées**. Vous pouvez restaurer le forfait plus tard depuis la [corbeille](trash.md#restaurer-un-forfait) (permission **suppression** requise).
    >- Si le forfait n'est lié à aucune entrée, il sera supprimé **définitevement**.
-
----
-
-## **Lien de navigation**
-
-- [_Retour au Sommaire_](table.md)  
-- [_Page précédente : Gestion des managers_](manager.md)  
-- [_Page suivante : Gestion des abonnements_](subscription.md)  

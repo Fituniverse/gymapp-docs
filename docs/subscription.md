@@ -1,4 +1,10 @@
-![GymApp Logo](/images/logo_md.png "GymApp Logo")
+﻿---
+id: subscription
+title: Gestion des abonnements
+description: Gerez les abonnements de vos clients
+---
+
+
 
 # Gestion des abonnements
 
@@ -71,10 +77,3 @@ Pour ajouter un abonnement, procédez comme suit :
 
    > **Note** : La suppression d’un abonnement est irréversible et met à jour automatiquement les statistiques dans les tableaux de bord.
 
----
-
-## **Liens de navigation**
-
-- [_Retour au Sommaire_](table.md)  
-- [_Page précédente : Gestion des forfaits_](package.md)  
-- [_Page suivante : Gestion des séances_](session.md)

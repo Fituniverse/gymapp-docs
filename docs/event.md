@@ -1,4 +1,10 @@
-![GymApp Logo](/images/logo_md.png "GymApp Logo")
+﻿---
+id: event
+title: Gestion des evenements
+description: Gerez les evenements de votre salle
+---
+
+
 
 # Gestion des événements
 
@@ -38,9 +44,3 @@ Pour modifier ou supprimer un événement, localisez et sélectionnez-le sur le 
 
 > **Note** : Une fois supprimé, Vous pouvez restaurer l'évènement depuis la [corbeille](trash.md#restaurer-un-évènement) (permission **suppression** requise). 
  
- ---
-## **Liens de navigation**
-
-- [_Retour au Sommaire_](table.md)  
-- [_Page précedente : Gestion de la clientèle_](product.md)   
-- [_Page suivante : Corbeille_](trash.md)  

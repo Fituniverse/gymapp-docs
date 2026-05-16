@@ -1,4 +1,10 @@
-![GymApp Logo](/images/logo_md.png "GymApp Logo")  
+﻿---
+id: product
+title: Gestion des stocks
+description: Gerez les produits de votre salle
+---
+
+
 
 # Gestion des stocks  
 
@@ -121,10 +127,3 @@ Pour ajouter une catégorie, procédez comme suit :
    ![Formulaire de suppression de catégorie](/images/screenshots/product/delete_category_form.png "delete category form")  
 
    > **Note** : La suppression d'une catégorie est **irréversible**.  
-
----
-## **Liens de navigation**
-
-- [_Retour au Sommaire_](table.md)  
-- [_Page précédente : Gestion des séances_](session.md)  
-- [_Page suivante : Gestion des ventes_](sale.md)

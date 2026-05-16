@@ -1,4 +1,10 @@
-![GymApp Logo](/images/logo_md.png "GymApp Logo")  
+﻿---
+id: trash
+title: Corbeille
+description: Gerez les elements supprimes
+---
+
+
 
 # Corbeille
 
@@ -49,9 +55,3 @@ Pour restaurer un article, procédez comme suit :
 
 3. Confirmez la restauration une fois le formulaire de restauration ouvert :   
     ![trash product form](/images/screenshots/trash/customer_restore_form.png "trash product form")
-
-## **Liens de navigation**
-
-- [_Retour au Sommaire_](table.md)  
-- [_Page précedente : Gestion des évènements_](event.md)   
-- [_Page suivante : Réabonnement au service GYMAPP_](payment.md)  

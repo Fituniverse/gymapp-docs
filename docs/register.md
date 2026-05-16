@@ -1,4 +1,10 @@
-![GymApp Logo](/images/logo_md.png "GymApp Logo")
+﻿---
+id: register
+title: Inscription
+description: Creez votre espace GymApp
+---
+
+
 
 # Enregistrement de la salle
 
@@ -45,13 +51,4 @@ Sélectionnez une méthode de paiement adaptée et effectuez la transaction.
 
 
 > **Astuce** : Si vous choisissez de **passer** cette étape, vous pourrez toujours souscrire à une formule après vous être connecté.
-
----
-## **Lien de navigation**
-
-- [_Page précedente : Sommaire_](table.md)  
-- [_Page suivante : Accédez à votre espace GYMAPP_](login.md)
-
-
-
 

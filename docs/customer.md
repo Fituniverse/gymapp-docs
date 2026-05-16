@@ -1,4 +1,10 @@
-![GymApp Logo](/images/logo_md.png "GymApp Logo")  
+﻿---
+id: customer
+title: Gestion des clients
+description: Gerez les clients de votre salle
+---
+
+
 
 # Gestion de la clientèle  
 
@@ -54,9 +60,3 @@ Vous accéderez aux détails du client, où vous trouverez l’historique comple
 
 > **Note** : Lorsqu'un client est supprimé, ses prestations (Abonnements, séances et achats) ne sont pas supprimées automatiquement pour des raisons de **tracabilité**. Vous pouvez toujours restaurer plus tard depuis la [corbeille](trash.md#restaurer-un-client) (permission **suppression** requise).
 
- ---
-## **Liens de navigation**
-
-- [_Retour au Sommaire_](table.md)  
-- [_Page précedente : Gestion des reçus_](product.md)   
-- [_Page suivante : Gestion des évènements_](event.md)  
