@@ -5,6 +5,7 @@ description: Gerez les clients de votre salle
 ---
 
 import NavPath from '@site/src/components/NavPath';
+import ActionButton from '@site/src/components/ActionButton';
 
 # Gestion de la clientèle
 
@@ -22,8 +23,8 @@ Les clients sont **ajoutés automatiquement** lorsqu'ils **souscrivent à un abo
 
 1. Accédez à la liste des clients via le menu déroulant : <NavPath items={['CLIENTELE']} />
 
-2. Cliquez sur le bouton correspondant au client :
-   ![customer view btn](/images/screenshots/customer/view_btn.png 'customer view btn')
+2. Cliquez sur <ActionButton type="view" /> pour acceder à l'espace d'un client :
+   ![customer view btn](/images/screenshots/customer/list.png 'customer view btn')
 
 :::info[Statuts]
 
@@ -35,29 +36,29 @@ Les clients sont **ajoutés automatiquement** lorsqu'ils **souscrivent à un abo
 
 Vous accéderez aux détails du client, où vous trouverez l’historique complet de ses prestations et transactions. Vous y trouverez également des actions facilitant le **suivi, l’ajout, la modification et la suppression des prestations**.
 
-![customer info](/images/screenshots/customer/customer_info.png 'customer info')
+![customer info](/images/screenshots/customer/view.png 'customer info')
 
 ---
 
 ## Modifier les informations d'un client
 
-1. Cliquez sur le bouton correspondant au client pour accéder au formulaire de modification :
-   ![customer edit btn](/images/screenshots/customer/edit_btn.png 'customer edit btn')
+1. Cliquez sur <ActionButton type="edit" /> pour accéder au formulaire de modification :
+   ![customer edit btn](/images/screenshots/customer/list.png 'customer edit btn')
 
 2. Modifiez les informations souhaitées et enregistrez :
 
-![edit form](/images/screenshots/customer/edit_form.png 'edit form')
+![edit form](/images/screenshots/customer/edit.png 'edit form')
 
 ---
 
 ## Supprimer un client
 
-1. Cliquez sur le bouton correspondant au client pour accéder au formulaire de suppression:
-   ![customer delete btn](/images/screenshots/customer/delete_btn.png 'customer delete btn')
+1. Cliquez sur <ActionButton type="delete" /> pour accéder au formulaire de suppression:
+   ![customer delete btn](/images/screenshots/customer/list.png 'customer delete btn')
 
 2. Confirmez la suppression du client une fois le formulaire ouvert :
 
-![delete form](/images/screenshots/customer/delete_form.png 'delete form')
+![delete form](/images/screenshots/customer/delete.png 'delete form')
 
 :::info
 
