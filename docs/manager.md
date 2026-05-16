@@ -5,6 +5,7 @@ description: Gerez les administrateurs de votre salle
 ---
 
 import NavPath from '@site/src/components/NavPath';
+import ActionButton from '@site/src/components/ActionButton';
 
 # Gestion des managers
 
@@ -26,9 +27,9 @@ Vous pouvez ajouter un ou plusieurs managers pour optimiser la gestion de votre 
    - _Nom d'utilisateur_
    - _Numéro de téléphone_
    - _Date de naissance (facultatif)_
-   - _Statut Super-Utilisateur_
+   - _Statut Administrateur_
 
-   ![add manager form](/images/screenshots/manager/add_manager_form.png 'add manager form')
+   ![add manager form](/images/screenshots/manager/add_form.png 'add manager form')
 
 :::info
 
@@ -46,8 +47,8 @@ L'attribution de rôles et permissions permet de personnaliser l'accès aux donn
 
 1. Accédez à la liste des managers via le menu déroulant : <NavPath items={['MANAGERS', 'LISTE DES MANAGERS']} />
 
-2. Cliquez sur le bouton correspondant au manager pour accéder au formulaire de définition des rôles et permissions :
-   ![List manager](/images/screenshots/manager/list_manager.png 'List manager')
+2. Cliquez sur <ActionButton type="key" /> pour accéder au formulaire de définition des rôles et permissions :
+   ![List manager](/images/screenshots/manager/list.png 'List manager')
 
 3. Choisissez les rôles et permissions requis pour le manager :
 
@@ -57,18 +58,18 @@ L'attribution de rôles et permissions permet de personnaliser l'accès aux donn
 
 ## Modifier les informations d'un manager
 
-1. Cliquez sur le bouton correspondant au manager pour accéder au formulaire de modification :
-   ![update manager btn](/images/screenshots/manager/update_manager_btn.png 'update manager btn')
+1. Cliquez sur <ActionButton type="edit" /> pour accéder au formulaire de modification :
+   ![List manager](/images/screenshots/manager/list.png 'List manager')
 
 2. Modifiez et sauvegardez les informations :
-   ![update manager](/images/screenshots/manager/update_manager.png 'update manager')
+   ![update manager](/images/screenshots/manager/update.png 'update manager')
 
 ---
 
 ## Désactiver / réactiver un compte manager
 
-1. Cliquez sur le bouton correspondant au manager pour accéder au formulaire de désactivation / réactivation :
-   ![activate manager btn](/images/screenshots/manager/activate_manager_btn.png 'activate manager btn')
+1. Cliquez sur <ActionButton type="status" /> pour accéder au formulaire de désactivation / réactivation :
+   ![List manager](/images/screenshots/manager/list.png 'List manager')
 
 :::info
 
@@ -77,7 +78,7 @@ Vous pouvez consulter le status chaque manager depuis la colonne **STATUT**.
 :::
 
 2. Confirmez la modification de status du compte:
-   ![update manager](/images/screenshots/manager/activate_manager.png 'update manager')
+   ![update manager](/images/screenshots/manager/activate.png 'update manager')
 
 :::info
 
