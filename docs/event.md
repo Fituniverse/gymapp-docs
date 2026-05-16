@@ -28,7 +28,7 @@ La gestion des événements est conçue pour être efficacement managée, offran
 - _Label (facultatif)_
 - _Description (facultatif)_
 
-![add form](/images/screenshots/calendar/add_form.png 'add form')
+![add form](/images/screenshots/calendar/add.png 'add form')
 
 ---
 
@@ -39,7 +39,7 @@ Pour modifier ou supprimer un événement, localisez et sélectionnez-le sur le 
 - **Modification :** Modifiez les informations souhaitées, puis cliquez sur **Enregistrer**.
 - **Suppression :** Cliquez sur le bouton **Supprimer** pour effacer l'événement.
 
-![edit form](/images/screenshots/calendar/edit_form.png 'edit form')
+![edit form](/images/screenshots/calendar/edit_del.png 'edit form')
 
 :::info
 
