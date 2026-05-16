@@ -5,6 +5,7 @@ description: Gerez les seances de vos clients
 ---
 
 import NavPath from '@site/src/components/NavPath';
+import ActionButton from '@site/src/components/ActionButton';
 
 # Gestion des séances
 
@@ -30,7 +31,7 @@ Pour ajouter un séance, procédez comme suit :
      - _Forfait_ (cf. [Gestion des forfaits](package.md#gestion-des-forfaits))
      - _La date et l'heure (ajouté automatiquement)_
 
-   ![adding Form](/images/screenshots/session/add_form.png 'adding Form')
+   ![adding Form](/images/screenshots/session/add.png 'adding Form')
 
 :::info
 
@@ -46,11 +47,11 @@ Pour ajouter un séance, procédez comme suit :
 
 1. Accédez à la liste des séances via le menu déroulant : <NavPath items={['SEANCES', 'LISTE SEANCES']} />
 
-2. Cliquez sur le bouton correspondant à la séance pour ouvrir le formulaire de modification.  
-   ![edit session btn](/images/screenshots/session/edit_btn.png 'edit session btn')
+2. Cliquez sur <ActionButton type="edit" /> pour ouvrir le formulaire de modification.  
+   ![edit session btn](/images/screenshots/session/list.png 'edit session btn')
 
 3. Modifiez les informations souhaitées et sauvegardez les modifications  
-   ![edit subscription form](/images/screenshots/session/edit_form.png 'edit subscription form')
+   ![edit subscription form](/images/screenshots/session/edit.png 'edit subscription form')
 
 :::warning
 
@@ -62,8 +63,8 @@ La modication du forfaut de séance met à jour automatiquement les statistiques
 
 ## **Reconduire une séance**
 
-1. Cliquez sur le bouton correspondant à la séance à reconduire pour accéder au formulaire de reconduction :  
-   ![reconduct subscription btn](/images/screenshots/session/reconduct_btn.png 'reconduct subscription btn')
+1. Cliquez sur <ActionButton type="reconduct" /> pour ouvrir le formulaire de reconduction :  
+   ![reconduct subscription btn](/images/screenshots/session/list.png 'reconduct subscription btn')
 
 :::info[Statuts]
 
@@ -74,17 +75,17 @@ La modication du forfaut de séance met à jour automatiquement les statistiques
 :::
 
 2. Confirmez la reconduction de la séance une fois le formulaire ouvert
-   ![reconduct session form](/images/screenshots/session/reconduct_form.png 'reconduct session form')
+   ![reconduct session form](/images/screenshots/session/reconduct.png 'reconduct session form')
 
 ---
 
 ## **Supprimer une séance**
 
-1. Cliquez sur le bouton correspondant à la séance à supprimer pour accéder au formulaire de suppression :  
-   ![delete session btn](/images/screenshots/session/delete_btn.png 'delete session btn')
+1. Cliquez sur <ActionButton type="delete" /> pour ouvrir le formulaire de suppression :  
+   ![delete session btn](/images/screenshots/session/list.png 'delete session btn')
 
 2. Confirmez la suppression une fois le formulaire ouvert :  
-   ![delete session form](/images/screenshots/session/delete_form.png 'delete session form')
+   ![delete session form](/images/screenshots/session/delete.png 'delete session form')
 
 :::danger[Attention]
 
