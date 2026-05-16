@@ -5,6 +5,7 @@ description: Gerez les ventes de votre salle
 ---
 
 import NavPath from '@site/src/components/NavPath';
+import ActionButton from '@site/src/components/ActionButton';
 
 # Gestion des ventes
 
@@ -18,20 +19,35 @@ Pour ajouter une vente, procédez comme suit :
 
 1. Accédez à la liste de sélection des articles via le menu déroulant : <NavPath items={['VENTE', 'NOUVELLE VENTE']} />
 
-**2. Sélectionnez les articles souhaités :**
+2. Sélectionnez les articles souhaités :
 
 - Cliquez sur le bouton panier (**bleu**) pour ajouter un article.
 - Cliquez sur le bouton panier (**rouge**) pour retirer un article.
 - Cliquez sur **VIDER** pour réinitialiser le panier.
 - Cliquez sur **VALIDER** pour confirmer votre sélection.  
-  ![select list](/images/screenshots/sale/select_list.png 'select list')
+  ![select list](/images/screenshots/sale/list.png 'select list')
 
-**3. Validez le panier :**
+3. Validez le panier :
 
 - Définissez les quantités pour chaque article.
 - Sélectionnez le client.
+- Definissez la date
 - Cliquez sur le bouton **VALIDER**.  
-  ![select customer](/images/screenshots/sale/select_customer.png 'select customer')
+  ![select customer](/images/screenshots/sale/cart.png 'select customer')
+
+---
+
+## Modifier une vente
+
+Pour ajouter une vente, procédez comme suit :
+
+1. Accédez à la liste des ventes via le menu déroulant : <NavPath items={['VENTE', 'LISTE VENTES']} />
+
+2. Cliquez sur <ActionButton type="edit" /> pour ouvrir le formulaire de modification :
+   ![delete sale btn](/images/screenshots/sale/sale_list.png 'delete sale btn')
+
+3. Modifiez les informations souhaitées et sauvegardez :
+   ![confirm delete sale btn](/images/screenshots/sale/edit.png 'confirm delete sale btn')
 
 ---
 
@@ -41,11 +57,11 @@ Pour supprimer une vente, procédez comme suit :
 
 1. Accédez à la liste des ventes via le menu déroulant : <NavPath items={['VENTE', 'LISTE VENTES']} />
 
-2. Cliquez sur le bouton de correspondant à la vente à supprimer :
-   ![delete sale btn](/images/screenshots/sale/sale_delete_btn.png 'delete sale btn')
+2. Cliquez sur <ActionButton type="delete" /> pour ouvrir le formulaire de suppression :
+   ![delete sale btn](/images/screenshots/sale/sale_list.png 'delete sale btn')
 
-3. Confirmez la suppression depuis la fenêtre de confirmation :
-   ![confirm delete sale btn](/images/screenshots/sale/delete_popup.png 'confirm delete sale btn')
+3. Confirmez la suppression de la vente :
+   ![confirm delete sale btn](/images/screenshots/sale/delete.png 'confirm delete sale btn')
 
 :::danger[Attention]
 
