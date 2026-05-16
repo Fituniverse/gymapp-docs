@@ -28,7 +28,7 @@ Vous pouvez ajouter un ou plusieurs forfaits pour gérer les souscriptions de vo
    - _Périodicité_ (uniquement pour les forfaits d’abonnement)
    - _Durée_ (uniquement pour les forfaits d’abonnement)
 
-   ![add form](/images/screenshots/package/add_form.png 'add form')
+   ![add form](/images/screenshots/package/add.png 'add form')
 
 :::tip
 
@@ -40,11 +40,11 @@ La configuration des forfaits est nécessaire avant de pouvoir ajouter des abonn
 
 ## **Modifier un forfait**
 
-1. Cliquez sur le bouton **MODIFIER** pour accéder au formulaire de modification de forfait :  
-   ![update btn](/images/screenshots/package/update_btn.png 'update btn')
+1. Cliquez sur le bouton **MODIFIER** pour accéder au formulaire de modification :  
+   ![update btn](/images/screenshots/package/package.png 'update btn')
 
 2. Modifiez et sauvegardez les informations :  
-   ![update form](/images/screenshots/package/update_form.png 'update form')
+   ![update form](/images/screenshots/package/edit.png 'update form')
 
 :::info
 
@@ -56,9 +56,10 @@ La modification du montant d’un forfait n’entraîne pas la mise à jour des 
 
 ## **Supprimer un forfait**
 
-1. Cliquez sur le bouton **SUPPRIMER** pour accéder au formulaire de suppression.
+1. Cliquez sur le bouton **SUPPRIMER** pour accéder au formulaire de suppression :
+   ![update btn](/images/screenshots/package/package.png 'update btn')
 2. Confirmez la suppression du forfait une fois le formulaire ouvert :  
-   ![delete form](/images/screenshots/package/delete_form.png 'delete form')
+   ![delete form](/images/screenshots/package/delete.png 'delete form')
 
 :::danger
 
