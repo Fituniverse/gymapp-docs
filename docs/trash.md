@@ -5,6 +5,7 @@ description: Gerez les elements supprimes
 ---
 
 import NavPath from '@site/src/components/NavPath';
+import ActionButton from '@site/src/components/ActionButton';
 
 # Corbeille
 
@@ -15,21 +16,21 @@ La corbeille est un espace de stockage temporaire où sont conservés les élém
 Pour restaurer un évènement, procédez comme suit :
 
 1. Accéder à la liste d'évements supprimés depuis le menu déroulant : <NavPath items={['CORBEILLE', 'EVENEMENTS']} />
-2. Cliquez sur le bouton correspondant à l'évènement à restaurer pour accéder au formulaire de restauration :  
-   ![trash event btn](/images/screenshots/trash/event_restore_btn.png 'trash event btn')
-3. Confirmez la restauration une fois de formulaire de restauration ouvert :  
-   ![trash event form](/images/screenshots/trash/event_restore_form.png 'trash event form')
+2. Cliquez sur <ActionButton type="restore" /> pour ouvrir le formulaire de restauration :  
+   ![trash event btn](/images/screenshots/trash/event.png 'trash event btn')
+3. Confirmez la restauration :  
+   ![trash event form](/images/screenshots/trash/event_restore.png 'trash event form')
 
 ## Restaurer un client
 
 Pour restaurer un client, procédez comme suit :
 
 1. Accéder à la liste des clients supprimés depuis le menu déroulant : <NavPath items={['CORBEILLE', 'CLIENTS']} />
-2. Cliquez sur le bouton correspondant au client à restaurer pour accéder au formulaire de restauration:
-   ![trash customer btn](/images/screenshots/trash/customer_restore_btn.png 'trash customer btn')
+2. Cliquez sur <ActionButton type="restore" /> pour ouvrir le formulaire de restauration:
+   ![trash customer btn](/images/screenshots/trash/customer.png 'trash customer btn')
 
-3. Confirmez la restauration une fois le formulaire de restauration ouvert :  
-   ![trash customer form](/images/screenshots/trash/customer_restore_form.png 'trash customer form')
+3. Confirmez la restauration :  
+   ![trash customer form](/images/screenshots/trash/customer_restore.png 'trash customer form')
 
 ## Restaurer un forfait
 
@@ -38,13 +39,7 @@ Pour restaurer un évènement, procédez comme suit :
 1. Accéder à la liste des forfaits supprimés depuis le menu déroulant : <NavPath items={['CORBEILLE', 'FORFAITS']} />
 
 2. Cliquez sur le bouton correspondant au forfait à restaurer :
-   ![btn trash package](/images/screenshots/trash/package_restore_btn.png 'btn trash package')
-
-:::info
-
-Vérifiez le nom de la section à droite pour confirmer le type de forfait à restaurer.
-
-:::
+   ![btn trash package](/images/screenshots/trash/package.png 'btn trash package')
 
 ## Restaurer un article
 
@@ -52,8 +47,8 @@ Pour restaurer un article, procédez comme suit :
 
 1. Accéder à la liste des articles supprimés depuis le menu déroulant : <NavPath items={['CORBEILLE', 'ARTICLES']} />
 
-2. Cliquez sur le bouton correspondant à l'article à restaurer pour accéder au formulaire de restauration :  
-   ![trash product btn](/images/screenshots/trash/product_restore_btn.png 'trash product btn')
+2. Cliquez sur <ActionButton type="restore" /> pour ouvrir le formulaire de restauration :  
+   ![trash product btn](/images/screenshots/trash/product.png 'trash product btn')
 
-3. Confirmez la restauration une fois le formulaire de restauration ouvert :  
-   ![trash product form](/images/screenshots/trash/customer_restore_form.png 'trash product form')
+3. Confirmez la restauration :  
+   ![trash product form](/images/screenshots/trash/product_restore.png 'trash product form')
