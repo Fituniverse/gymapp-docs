@@ -48,7 +48,7 @@ const config = {
 
   themeConfig: {
     navbar: {
-      title: 'GymApp',
+      title: 'GYMAPP',
       logo: {
         alt: 'GymApp Logo',
         src: 'images/logo.png',
@@ -58,18 +58,14 @@ const config = {
           type: 'docSidebar',
           sidebarId: 'docs', // 👈 matches sidebars.js
           position: 'left',
-          label: 'Documentation',
+          label: 'DOCUMENTATION',
         },
         {
-          href: 'https://github.com/Chesterkxng/Gym-App',
-          label: 'GitHub',
+          href: 'https://www.gymxapp.com/',
+          label: 'GYMAPP',
           position: 'right',
         },
       ],
-    },
-    footer: {
-      style: 'dark',
-      copyright: `Copyright © ${new Date().getFullYear()} GYMAPP. Construit avec Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,
