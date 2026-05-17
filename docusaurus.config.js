@@ -48,10 +48,12 @@ const config = {
 
   themeConfig: {
     navbar: {
-      title: 'GYMAPP',
+      title: '',
       logo: {
         alt: 'GymApp Logo',
         src: 'images/logo.png',
+        srcDark: 'images/logo-white.png',
+        href: '/Gym-App/',
       },
       items: [
         {

@@ -16,6 +16,7 @@
  */
 const sidebars = {
   docs: [
+    { type: 'doc', id: 'intro', label: 'Introduction' },
     { type: 'doc', id: 'register', label: 'Inscription' },
     { type: 'doc', id: 'login', label: 'Connexion' },
     { type: 'doc', id: 'manager', label: 'Gestion des managers' },
