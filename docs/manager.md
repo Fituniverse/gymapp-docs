@@ -34,8 +34,8 @@ Vous pouvez ajouter un ou plusieurs managers pour optimiser la gestion de votre 
 :::info
 
 - Le nombre de managers actifs dépend des limites de votre forfait. Veuillez en tenir compte lors de l’ajout d’un nouveau manager.
-- Le mot de passe par défaut est password. Par mesure de sécurité, il est recommandé de le modifier dès la première connexion. Les étapes sont détaillées dans la section Réinitialisation de mot de passe.
-- L’activation des privilèges Super-Utilisateur donne un accès complet à l’application. Sinon, les permissions et rôles doivent être configurés manuellement.
+- Le mot de passe par défaut est password. Par mesure de sécurité, il est recommandé de le modifier dès la première connexion. Les étapes sont détaillées dans la section [Réinitialisation de mot de passe](./login#réinitialiser-le-mot-de-passe).
+- L’activation des privilèges **Administrateur** donne un accès complet à l’application. Sinon, les permissions et rôles doivent être configurés manuellement.
 
 :::
 
@@ -71,17 +71,46 @@ L'attribution de rôles et permissions permet de personnaliser l'accès aux donn
 1. Cliquez sur <ActionButton type="status" /> pour accéder au formulaire de désactivation / réactivation :
    ![List manager](/images/screenshots/manager/list.png 'List manager')
 
-:::info
-
-Vous pouvez consulter le status chaque manager depuis la colonne **STATUT**.
-
-:::
-
 2. Confirmez la modification de status du compte:
    ![update manager](/images/screenshots/manager/activate.png 'update manager')
 
-:::info
+:::warning
 
 Le nombre de managers actifs est limité par votre forfait. Veuillez en tenir compte lors de l'activation d'un manager.
+
+:::
+
+---
+
+## Voir son profil
+
+Vous pouvez consulter les informations de votre propre compte à tout moment.
+
+1. Accédez à votre profil :<NavPath items={['COMPTE', 'PROFIL']} />
+
+   Vous y trouverez vos informations personnelles que vous pouvez modifier:
+   - _Nom et prénoms_
+   - _Email_
+   - _Nom d'utilisateur_
+   - _Numéro de téléphone_
+   - _Date de naissance_
+
+   ![Manager profile](/images/screenshots/manager/profile.png 'Manager profile')
+
+---
+
+## Voir ses permissions
+
+Vous pouvez consulter les rôles et permissions qui vous ont été attribués par le super-utilisateur.
+
+1. Accédez à vos permissions : <NavPath items={['COMPTE', 'MES PERMISSIONS']} />
+
+   Vous y trouverez la liste des permissions actives sur votre compte :
+
+   ![Manager permissions](/images/screenshots/manager/perm.png 'Manager permissions')
+
+:::info
+
+Les permissions sont configurées par l'adminstrateur. Si vous pensez avoir besoin d'accès supplémentaires, contactez votre administrateur.
 
 :::
