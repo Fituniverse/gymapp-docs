@@ -28,8 +28,8 @@ export default function Footer() {
           <img
             src={
               colorMode === 'dark'
-                ? '/Gym-App/images/logo.png'
-                : '/Gym-App/images/logo_md.png'
+                ? '/Gym-App/images/logo-white.png'
+                : '/Gym-App/images/logo.png'
             }
             alt="GymApp"
             height={40}
