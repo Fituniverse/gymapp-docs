@@ -1,6 +1,14 @@
-![GymApp Logo](/images/logo_md.png "GymApp Logo")
+﻿---
+id: sale
+title: Gestion des ventes
+description: Gerez les ventes de votre salle
+---
+
+import NavPath from '@site/src/components/NavPath';
+import ActionButton from '@site/src/components/ActionButton';
 
 # Gestion des ventes
+
 La gestion des ventes est une fonctionnalité essentielle pour suivre et optimiser les transactions dans votre salle de sport. Que ce soit pour la vente d’équipements, d’accessoires ou de produits divers, cet outil offre une traçabilité complète des opérations, de l’enregistrement des ventes à l’analyse des revenus. En facilitant la gestion des transactions, cette fonctionnalité contribue à la satisfaction des clients tout en augmentant la rentabilité de votre établissement.
 
 ---
@@ -9,41 +17,54 @@ La gestion des ventes est une fonctionnalité essentielle pour suivre et optimis
 
 Pour ajouter une vente, procédez comme suit :
 
-1. Accédez à la liste de sélection des articles via le menu déroulant :
-![navbar add session](/images/screenshots/sale/nav_add.png "navbar add session")  
+1. Accédez à la liste de sélection des articles via le menu déroulant : <NavPath items={['VENTE', 'NOUVELLE VENTE']} />
 
-**2. Sélectionnez les articles souhaités :**  
-- Cliquez sur le bouton panier (**en bleu**) pour ajouter un article.  
-- Cliquez sur le bouton panier (**en rouge**) pour retirer un article.  
-- Cliquez sur **VIDER** pour réinitialiser le panier.  
+2. Sélectionnez les articles souhaités :
+
+- Cliquez sur le bouton panier (**bleu**) pour ajouter un article.
+- Cliquez sur le bouton panier (**rouge**) pour retirer un article.
+- Cliquez sur **VIDER** pour réinitialiser le panier.
 - Cliquez sur **VALIDER** pour confirmer votre sélection.  
-![select list](/images/screenshots/sale/select_list.png "select list")  
+  ![select list](/images/screenshots/sale/list.png 'select list')
 
-**3. Validez le panier :**  
-- Définissez les quantités pour chaque article.  
-- Sélectionnez le client.  
+3. Validez le panier :
+
+- Définissez les quantités pour chaque article.
+- Sélectionnez le client.
+- Definissez la date
 - Cliquez sur le bouton **VALIDER**.  
-![select customer](/images/screenshots/sale/select_customer.png "select customer")  
+  ![select customer](/images/screenshots/sale/cart.png 'select customer')
+
+---
+
+## Modifier une vente
+
+Pour ajouter une vente, procédez comme suit :
+
+1. Accédez à la liste des ventes via le menu déroulant : <NavPath items={['VENTE', 'LISTE VENTES']} />
+
+2. Cliquez sur <ActionButton type="edit" /> pour ouvrir le formulaire de modification :
+   ![delete sale btn](/images/screenshots/sale/sale_list.png 'delete sale btn')
+
+3. Modifiez les informations souhaitées et sauvegardez :
+   ![confirm delete sale btn](/images/screenshots/sale/edit.png 'confirm delete sale btn')
 
 ---
 
 ## Supprimer une vente
 
-Pour supprimer une vente, procédez comme suit :  
+Pour supprimer une vente, procédez comme suit :
 
-1. Accédez à la liste des ventes via le menu déroulant : 
-![navbar list sale](/images/screenshots/sale/sale_list.png "navbar list sale")  
+1. Accédez à la liste des ventes via le menu déroulant : <NavPath items={['VENTE', 'LISTE VENTES']} />
 
-2. Cliquez sur le bouton de correspondant à la vente à supprimer :
-![delete sale btn](/images/screenshots/sale/sale_delete_btn.png "delete sale btn")  
+2. Cliquez sur <ActionButton type="delete" /> pour ouvrir le formulaire de suppression :
+   ![delete sale btn](/images/screenshots/sale/sale_list.png 'delete sale btn')
 
-**3. Confirmez la suppression depuis la fenêtre de confirmation :**  
-![confirm delete sale btn](/images/screenshots/sale/delete_popup.png "confirm delete sale btn")  
+3. Confirmez la suppression de la vente :
+   ![confirm delete sale btn](/images/screenshots/sale/delete.png 'confirm delete sale btn')
 
-> **Note** : La suppression d’une vente est **irréversible** et met à jour automatiquement les statistiques dans les tableaux de bord.
----
-## **Liens de navigation**
+:::danger[Attention]
 
-- [_Retour au Sommaire_](table.md)  
-- [_Page précedente : Gestion de stock_](product.md)   
-- [_Page suivante : Gestion des reçus_](invoice.md)  
+La suppression d’une vente est **irréversible** et met à jour automatiquement les statistiques dans les tableaux de bord.
+
+:::

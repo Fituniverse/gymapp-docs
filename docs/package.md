@@ -1,4 +1,10 @@
-![GymApp Logo](/images/logo_md.png "GymApp Logo")
+﻿---
+id: package
+title: Gestion des forfaits
+description: Gerez les forfaits de votre salle
+---
+
+import NavPath from '@site/src/components/NavPath';
 
 # Gestion des forfaits
 
@@ -8,49 +14,56 @@ La gestion des forfaits est un élément clé pour adapter les services de votre
 
 ## **Ajouter un forfait**
 
-Vous pouvez ajouter un ou plusieurs forfaits pour gérer les souscriptions de vos clients. Voici comment procéder :  
-1. Accédez à l'interface de gestion des forfaits :  
-   ![navbar package](/images/screenshots/package/nav_package.png "navbar package")
+Vous pouvez ajouter un ou plusieurs forfaits pour gérer les souscriptions de vos clients. Voici comment procéder :
+
+1. Accédez à l'interface de gestion des forfaits via le menu déroulant : <NavPath items={['FORFAITS', 'ABONNEMENTS']} /> ou <NavPath items={['FORFAITS', 'SEANCES']} />
 
 2. Cliquez sur le bouton **AJOUTER UN FORFAIT**. Vous serez redirigé vers un formulaire d'ajout de forfait :  
-   ![add btn](/images/screenshots/package/add_btn.png "add btn")
+   ![add btn](/images/screenshots/package/add_btn.png 'add btn')
 
-3. Renseignez les données relatives au forfait :  
-   - _Nom_  
-   - _Montant_  
-   - _Description_  
+3. Renseignez les données relatives au forfait :
+   - _Nom_
+   - _Montant_
+   - _Description_
+   - _Périodicité_ (uniquement pour les forfaits d’abonnement)
+   - _Durée_ (uniquement pour les forfaits d’abonnement)
 
-   ![add form](/images/screenshots/package/add_form.png "add form")
+   ![add form](/images/screenshots/package/add.png 'add form')
 
-   > **Note:** Vous pourrez ajouter des abonnements et/ou des séances uniquement après avoir configuré vos forfaits.
+:::tip
+
+La configuration des forfaits est nécessaire avant de pouvoir ajouter des abonnements et/ou des séances.
+
+:::
 
 ---
 
-## **Modifier un forfait**  
-1. Cliquez sur le bouton **MODIFIER** pour accéder au formulaire de modification de forfait :  
-   ![update btn](/images/screenshots/package/update_btn.png "update btn")
+## **Modifier un forfait**
+
+1. Cliquez sur le bouton **MODIFIER** pour accéder au formulaire de modification :  
+   ![update btn](/images/screenshots/package/package.png 'update btn')
 
 2. Modifiez et sauvegardez les informations :  
-   ![update form](/images/screenshots/package/update_form.png "update form")
+   ![update form](/images/screenshots/package/edit.png 'update form')
 
-   > **Note:** La modification du montant d'un forfait n'entraîne pas la mise à jour des entrées précédentes. **Le nouveau montant sera appliqué uniquement pour les nouvelles entrées.**
+:::info
+
+La modification du montant d’un forfait n’entraîne pas la mise à jour des entrées précédentes. **Le nouveau montant sera appliqué uniquement aux nouvelles entrées ainsi qu’aux entrées modifiés**.
+
+:::
 
 ---
 
 ## **Supprimer un forfait**
 
-1. Cliquez sur le bouton **SUPPRIMER** pour accéder au formulaire de suppression.  
+1. Cliquez sur le bouton **SUPPRIMER** pour accéder au formulaire de suppression :
+   ![update btn](/images/screenshots/package/package.png 'update btn')
 2. Confirmez la suppression du forfait une fois le formulaire ouvert :  
-   ![delete form](/images/screenshots/package/delete_form.png "delete form")
+   ![delete form](/images/screenshots/package/delete.png 'delete form')
 
-   > **Notes:**
-   > - La suppression d'un forfait n'entraîne pas **la suppression de toutes les entrées (Abonnements, Séances) liées**. Vous pouvez restaurer le forfait plus tard depuis la [corbeille](trash.md#restaurer-un-forfait) (permission **suppression** requise).
-   >- Si le forfait n'est lié à aucune entrée, il sera supprimé **définitevement**.
+:::danger
 
----
+- La suppression d’un forfait n’entraîne pas la suppression des entrées liées (abonnements, séances). Vous pourrez restaurer le forfait ultérieurement depuis la [corbeille](trash.md#restaurer-un-forfait).
+- Si le forfait n’est associé à aucune entrée, il sera supprimé définitivement.
 
-## **Lien de navigation**
-
-- [_Retour au Sommaire_](table.md)  
-- [_Page précédente : Gestion des managers_](manager.md)  
-- [_Page suivante : Gestion des abonnements_](subscription.md)  
+:::

@@ -1,4 +1,11 @@
-![GymApp Logo](/images/logo_md.png "GymApp Logo")
+﻿---
+id: subscription
+title: Gestion des abonnements
+description: Gerez les abonnements de vos clients
+---
+
+import NavPath from '@site/src/components/NavPath';
+import ActionButton from '@site/src/components/ActionButton';
 
 # Gestion des abonnements
 
@@ -8,73 +15,71 @@ La gestion des abonnements est une fonctionnalité centrale qui assure un suivi 
 
 ## **Ajouter un abonnement**
 
-Pour ajouter un abonnement, procédez comme suit :  
-1. Accédez au formulaire d'ajout d'abonnements :  
-   ![navbar add subscription](/images/screenshots/subscription/nav_add.png "navbar add subscription")  
+Pour ajouter un abonnement, procédez comme suit :
 
-2. Renseignez les informations suivantes :  
-   - **Informations du client** :  
-     - _Nom_  
-     - _Prénom_  
-     - _Genre_  
-     - _Téléphone_  
-     - _Date de naissance (facultatif)_  
-     - _Email (facultatif)_  
-     - _Adresse (facultatif)_  
-   - **Informations de l'abonnement** :  
-     - _Date de début_  
-     - _Nombre de mois_  
-     - _Forfait_ (cf. [Gestion des forfaits](package.md#gestion-des-forfaits))  
+1. Accédez au formulaire d'ajout d'abonnements via le menu deroulant : <NavPath items={['ABONNEMENTS', 'NOUVEL ABONNEMENT']} />
 
-   ![adding Form](/images/screenshots/subscription/add_form.png "adding Form")  
+2. Renseignez les informations suivantes :
+   - **Informations du client** :
+     - _Nom_
+     - _Prénom_
+     - _Genre_
+     - _Téléphone_
+     - _Date de naissance (facultatif)_
+     - _Email (facultatif)_
+     - _Adresse (facultatif)_
+   - **Informations de l'abonnement** :
+     - _Date de début_
+     - _Nombre de mois_
+     - _Forfait_ (cf. [Gestion des forfaits](package.md#gestion-des-forfaits))
 
-   > **Note** : Utilisez cette interface uniquement pour le **premier abonnement** d’un client. Pour les reconductions ultérieures, ce formulaire n’est plus nécessaire, car les informations du client sont déjà enregistrées.
+   ![adding Form](/images/screenshots/subscription/add.png 'adding Form')
 
 ---
 
 ## **Modifier un abonnement**
 
-1. Accédez à la liste des abonnements via le menu déroulant :  
-   ![navbar list subscription](/images/screenshots/subscription/nav_list.png "navbar list subscription")  
+1. Accédez à la liste des abonnements via le menu déroulant : <NavPath items={['ABONNEMENTS', "LISTE D'ABONNEMENTS"]} />
 
-2. Cliquez sur le bouton correspondant à l'abonnement pour ouvrir le formulaire de modification.  
-   ![edit subscription btn](/images/screenshots/subscription/edit_btn.png "edit subscription btn")  
+2. Cliquez sur <ActionButton type="edit" /> pour ouvrir le formulaire de modification.  
+   ![edit subscription btn](/images/screenshots/subscription/list.png 'edit subscription btn')
 
 3. Modifiez les informations souhaitées et cliquez sur **MODIFIER ABONNEMENT**.  
-   ![edit subscription form](/images/screenshots/subscription/edit_form.png "edit subscription form")  
+   ![edit subscription form](/images/screenshots/subscription/edit.png 'edit subscription form')
 
-   > **Note** : Les informations du client ne sont pas modifiables depuis cette interface.
-   > **Note** : La modification d’un abonnement met à jour automatiquement les statistiques dans les tableaux de bord.
+:::warning
+
+La modification d’un abonnement met à jour automatiquement les statistiques dans les tableaux de bord.
+
+:::
 
 ---
 
 ## **Reconduire un abonnement**
 
-1. Cliquez sur le bouton correspondant à l’abonnement à reconduire :  
-   ![reconduct subscription btn](/images/screenshots/subscription/reconduct_btn.png "reconduct subscription btn")  
+1. Cliquez sur <ActionButton type="reconduct" /> pour ouvrir le formulaire de reconduction :  
+   ![reconduct subscription btn](/images/screenshots/subscription/list.png 'reconduct subscription btn')
 
-   > **Note 1** : Ce bouton devient disponible une fois l’abonnement arrivé à son terme.  
-   > **Note 2** : Identifiez facilement les abonnements expirés grâce à la colonne **STATUT** (indiquée par des puces rouges).  
+:::info
+Ce bouton devient disponible une fois l’abonnement arrivé à son terme.
+
+:::
 
 2. Renseignez les informations du nouvel abonnement, puis confirmez la reconduction.  
-   ![reconduct subscription form](/images/screenshots/subscription/reconduct_form.png "reconduct subscription form")  
+   ![reconduct subscription form](/images/screenshots/subscription/reconduct.png 'reconduct subscription form')
 
 ---
 
 ## **Supprimer un abonnement**
 
-1. Cliquez sur le bouton correspondant à l'abonnement pour accéder au formulaire de suppression :  
-   ![delete subscription btn](/images/screenshots/subscription/delete_btn.png "delete subscription btn")  
+1. Cliquez sur <ActionButton type="delete" /> pour ouvrir le formulaire de suppression :  
+   ![delete subscription btn](/images/screenshots/subscription/list.png 'delete subscription btn')
 
 2. Confirmez la suppression de l'abonnement une fois le formulaire ouvert
-   ![delete subscription form](/images/screenshots/subscription/delete_form.png "delete subscription form")  
+   ![delete subscription form](/images/screenshots/subscription/delete.png 'delete subscription form')
 
-   > **Note** : La suppression d’un abonnement est irréversible et met à jour automatiquement les statistiques dans les tableaux de bord.
+:::danger[Attention]
 
----
+La suppression d’un abonnement est irréversible et met à jour automatiquement les statistiques dans les tableaux de bord.
 
-## **Liens de navigation**
-
-- [_Retour au Sommaire_](table.md)  
-- [_Page précédente : Gestion des forfaits_](package.md)  
-- [_Page suivante : Gestion des séances_](session.md)
+:::

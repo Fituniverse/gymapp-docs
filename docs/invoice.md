@@ -1,4 +1,10 @@
-![GymApp Logo](/images/logo_md.png "GymApp Logo")  
+﻿---
+id: invoice
+title: Gestion des factures
+description: Gerez les factures de votre salle
+---
+
+import ActionButton from '@site/src/components/ActionButton';
 
 # Gestion des reçus
 
@@ -8,12 +14,12 @@ La gestion des reçus est une fonctionnalité essentielle qui permet d'offrir un
 
 ## Consulter un reçu
 
-Pour consulter un reçu de transaction, cliquez sur le bouton de consultation présent dans les listes d'abonnements, de séances et de ventes (_cf. l'exemple ci-après_).
+Pour consulter un reçu de transaction, cliquez sur <ActionButton type="invoice" /> présent dans les listes d'abonnements, de séances et de ventes (_cf. l'exemple ci-après_).
 
-![invoice btn](/images/screenshots/invoice/invoice_btn.png "invoice btn")  
+![invoice btn](/images/screenshots/invoice/invoice_btn.png 'invoice btn')
 
 Le reçu s'affichera comme suit :  
-![invoice](/images/screenshots/invoice/invoice.png "invoice")  
+![invoice](/images/screenshots/invoice/invoice.png 'invoice')
 
 ---
 
@@ -21,21 +27,17 @@ Le reçu s'affichera comme suit :
 
 **1. Envoyer un reçu par email**  
 Si le système d'envoi est inclus dans votre forfait, vous pouvez envoyer les reçus par email à vos clients.  
-Pour ce faire, cliquez sur le bouton **Envoyer via Email**.  
+Pour ce faire, cliquez sur le bouton **Envoyer via Email**.
 
-> **Notes :**  
-> - L'adresse email du client est **requise** pour l'envoi du reçu.  
-> - Un reçu ne peut être **envoyé qu'une seule fois**. Vérifiez l'adresse email du client avant tout envoi.
+:::info
+
+- L'adresse email du client est **requise** pour l'envoi du reçu.
+- Un reçu ne peut être **envoyé qu'une seule fois**. Vérifiez l'adresse email du client avant tout envoi.
+
+:::
 
 **2. Télécharger un reçu**  
 Vous pouvez télécharger le reçu autant de fois que nécessaire en cliquant sur le bouton **Télécharger**.
 
 **3. Imprimer un reçu**  
 Si vous disposez d'une imprimante, vous pouvez imprimer un reçu autant de fois que souhaité en cliquant sur le bouton **Imprimer**.
-
----
-## **Liens de navigation**
-
-- [_Retour au Sommaire_](table.md)  
-- [_Page précedente : Gestion de stock_](product.md)   
-- [_Page suivante : Gestion de la clientèle_](customer.md) 

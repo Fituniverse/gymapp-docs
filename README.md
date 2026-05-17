@@ -1,47 +1,41 @@
+# Website
 
-![GymApp Logo](images/logo_md.png "GymApp Logo")
+This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
 
-## Description
+## Installation
 
-GymApp est une plateforme de gestion pour les salles de sport, permettant aux propriétaires d'enregistrer leurs établissements afin de suivre les abonnements, les séances d'entrainements, le stock, et les ventes. L'application propose un tableau de bord interactif pour visualiser les statistiques et simplifier la gestion quotidienne. Elle est conçue pour être intuitive et adaptée aux besoins des petites et grandes salles de sport.
+```bash
+yarn
+```
 
+## Local Development
 
-## Fonctionnalités
+```bash
+yarn start
+```
 
-- Gestion des abonnements
-- Gestion des séances
-- Gestion de stock
-- Gestion des ventes
-- Gestion de la clientèle
-- Gestion des managers
-- Gestion des évènements
-- Génération de factures
-- Tableaux de bords
+This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
 
-## Premiers pas
-- Enregistrez votre salle de gym et créer un Super-Utilisateur
-- Choisissez une formule adaptée aux besoins de votre salle de gym et finalez le paiement
-- Connectez-vous ! 
-- Configurez vos forfaits d'abonnements et de séances
-- Créez vos managers, attribuez leurs rôles et définissez leurs permissions
-- **Exploitez pleinement l'application !** 
+## Build
 
-## Documentation
+```bash
+yarn build
+```
 
-Accédez rapidement aux sections détaillées de notre documentation pour une compréhension complète des fonctionnalités de notre application en cliquant sur le lien suivant.  
+This command generates static content into the `build` directory and can be served using any static contents hosting service.
 
-[Manuel GymApp](docs/table.md)
+## Deployment
 
+Using SSH:
 
+```bash
+USE_SSH=true yarn deploy
+```
 
-## Auteurs
+Not using SSH:
 
-- [Goïta Cheick](https://www.github.com/Chesterkxng), *Développeur*.
+```bash
+GIT_USER=<Your GitHub username> yarn deploy
+```
 
-## Contributeurs
-
-- [Keglo Stephane](https://www.github.com/keglostephane), *Développeur*,
-- [Ibrahima G. Coulibaly](https://www.github.com/iib0011), *Dev Ops*,
-- [Zoum Lewis](https://www.facebook.com/ouattara.zoumanalewiis), *Infographiste*,
-
-
+If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.

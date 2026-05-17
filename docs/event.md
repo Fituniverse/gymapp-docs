@@ -1,4 +1,10 @@
-![GymApp Logo](/images/logo_md.png "GymApp Logo")
+﻿---
+id: event
+title: Gestion des evenements
+description: Gerez les evenements de votre salle
+---
+
+import NavPath from '@site/src/components/NavPath';
 
 # Gestion des événements
 
@@ -8,22 +14,21 @@ La gestion des événements est conçue pour être efficacement managée, offran
 
 ## Ajouter un événement
 
-1. Accédez à la liste des événements via le menu déroulant :
-![nav event](/images/screenshots/calendar/nav_calendar.png "nav event") 
+1. Accédez à la liste des événements via le menu déroulant : <NavPath items={['CALENDRIER']} />
 
 2. Cliquez sur le bouton **ajouter un évènement** pour accéder au formulaire d'ajout :
-![calendar](/images/screenshots/calendar/calendar.png "calendar") 
+   ![calendar](/images/screenshots/calendar/calendar.png 'calendar')
 
 3. Renseignez les informations suivantes :
-- _Titre_  
-- _Date et Heure de début_  
-- _Date et heure de fin_  
-- _Téléphone_  
-- _Label (facultatif)_  
+
+- _Titre_
+- _Date et Heure de début_
+- _Date et heure de fin_
+- _Téléphone_
+- _Label (facultatif)_
 - _Description (facultatif)_
 
-![add form](/images/screenshots/calendar/add_form.png "add form") 
-
+![add form](/images/screenshots/calendar/add.png 'add form')
 
 ---
 
@@ -31,16 +36,13 @@ La gestion des événements est conçue pour être efficacement managée, offran
 
 Pour modifier ou supprimer un événement, localisez et sélectionnez-le sur le calendrier. Un formulaire s'ouvrira.
 
-- **Modification :** Modifiez les informations souhaitées, puis cliquez sur **Enregistrer**.  
-- **Suppression :** Cliquez sur le bouton **Supprimer** pour effacer l'événement.  
+- **Modification :** Modifiez les informations souhaitées, puis cliquez sur **Enregistrer**.
+- **Suppression :** Cliquez sur le bouton **Supprimer** pour effacer l'événement.
 
-![edit form](/images/screenshots/calendar/edit_form.png "edit form")
+![edit form](/images/screenshots/calendar/edit_del.png 'edit form')
 
-> **Note** : Une fois supprimé, Vous pouvez restaurer l'évènement depuis la [corbeille](trash.md#restaurer-un-évènement) (permission **suppression** requise). 
- 
- ---
-## **Liens de navigation**
+:::info
 
-- [_Retour au Sommaire_](table.md)  
-- [_Page précedente : Gestion de la clientèle_](product.md)   
-- [_Page suivante : Corbeille_](trash.md)  
+Une fois supprimé, Vous pouvez restaurer l'évènement depuis la [corbeille](trash.md#restaurer-un-évènement).
+
+:::

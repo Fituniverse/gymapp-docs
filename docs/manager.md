@@ -1,4 +1,11 @@
-![GymApp Logo](/images/logo_md.png "GymApp Logo")
+﻿---
+id: manager
+title: Gestion des administrateurs
+description: Gerez les administrateurs de votre salle
+---
+
+import NavPath from '@site/src/components/NavPath';
+import ActionButton from '@site/src/components/ActionButton';
 
 # Gestion des managers
 
@@ -10,25 +17,27 @@ Cette gestion, à la fois simplifiée et centralisée, vous permet d’attribuer
 
 ## Ajouter un manager
 
-Vous pouvez ajouter un ou plusieurs managers pour optimiser la gestion de votre salle. Voici comment procéder :  
-1. Accédez au formumaire d'ajout de manager via le menu déroulant :  
-   
-   ![add manager](/images/screenshots/manager/nav_add_manager.png "add manager")
+Vous pouvez ajouter un ou plusieurs managers pour optimiser la gestion de votre salle. Voici comment procéder :
 
-   > **Note:**  Le nombre de managers actifs est limité par les conditions de votre forfait. Veuillez en tenir compte lors de l'ajout d'un nouveau manager.
+1. Accédez au formumaire d'ajout de manager via le menu déroulant : <NavPath items={['MANAGERS', 'AJOUTER UN MANAGER']} />
 
-2. Renseignez les données personnelles suivantes :  
-   - _Nom et prénoms_  
-   - _Email_  
-   - _Nom d'utilisateur_  
-   - _Numéro de téléphone_  
-   - _Date de naissance (facultatif)_  
-   - _Statut Super-Utilisateur_
+2. Renseignez les données personnelles suivantes :
+   - _Nom et prénoms_
+   - _Email_
+   - _Nom d'utilisateur_
+   - _Numéro de téléphone_
+   - _Date de naissance (facultatif)_
+   - _Statut Administrateur_
 
-   ![add manager form](/images/screenshots/manager/add_manager_form.png "add manager form")
+   ![add manager form](/images/screenshots/manager/add_form.png 'add manager form')
 
-   > **Note 1 :** Le mot de passe par défaut est **password**. Pour des raisons de sécurité, nous recommandons que le manager change immédiatement ce mot de passe dès la première connexion. Suivez les étapes décrites dans la section [Réinitialisation de mot de passe](login.md#2---réinitialisation-de-mot-de-passe).  
-   > **Note 2 :** Si vous activez les **privilèges Super-Utilisateur**, le manager disposera de toutes les permissions dans l'application. Sinon, vous devrez définir les permissions et rôles manuellement.
+:::info
+
+- Le nombre de managers actifs dépend des limites de votre forfait. Veuillez en tenir compte lors de l’ajout d’un nouveau manager.
+- Le mot de passe par défaut est password. Par mesure de sécurité, il est recommandé de le modifier dès la première connexion. Les étapes sont détaillées dans la section [Réinitialisation de mot de passe](./login#réinitialiser-le-mot-de-passe).
+- L’activation des privilèges **Administrateur** donne un accès complet à l’application. Sinon, les permissions et rôles doivent être configurés manuellement.
+
+:::
 
 ---
 
@@ -36,50 +45,72 @@ Vous pouvez ajouter un ou plusieurs managers pour optimiser la gestion de votre 
 
 L'attribution de rôles et permissions permet de personnaliser l'accès aux données et fonctionnalités en fonction des responsabilités de chaque manager.
 
-1. Accédez à la liste des managers via le menu déroulant :  
-    ![navbar list manager](/images/screenshots/manager/nav_list_manager.png "navbar list manager")  
+1. Accédez à la liste des managers via le menu déroulant : <NavPath items={['MANAGERS', 'LISTE DES MANAGERS']} />
 
-
-2. Cliquez sur le bouton correspondant au manager pour accéder au formulaire de définition des rôles et permissions :
-    ![List manager](/images/screenshots/manager/list_manager.png "List manager")  
+2. Cliquez sur <ActionButton type="key" /> pour accéder au formulaire de définition des rôles et permissions :
+   ![List manager](/images/screenshots/manager/list.png 'List manager')
 
 3. Choisissez les rôles et permissions requis pour le manager :
 
- ![Permission](/images/screenshots/manager/permission.png "Permission")
-
-> Sur les modules inclus dans votre forfait, vous pouvez définir les permissions suivantes :  
-  > - **Lecture :** Le manager peut consulter les entrées.  
-  >- **Ajout :** Le manager peut ajouter des entrées.  
-  > - **Modification :** Le manager peut manipuler des entrées.  
-  > - **Suppression :** Le manager peut supprimer des entrées.  
+![Permission](/images/screenshots/manager/permission.png 'Permission')
 
 ---
 
 ## Modifier les informations d'un manager
-1. Cliquez sur le bouton correspondant au manager pour accéder au formulaire de modification :
-    ![update manager btn](/images/screenshots/manager/update_manager_btn.png "update manager btn")
+
+1. Cliquez sur <ActionButton type="edit" /> pour accéder au formulaire de modification :
+   ![List manager](/images/screenshots/manager/list.png 'List manager')
 
 2. Modifiez et sauvegardez les informations :
-    ![update manager](/images/screenshots/manager/update_manager.png "update manager")
+   ![update manager](/images/screenshots/manager/update.png 'update manager')
 
 ---
 
-## Désactiver / réactiver un compte manager 
-1. Cliquez sur le bouton correspondant au manager pour accéder au formulaire de désactivation / réactivation :
-    ![activate manager btn](/images/screenshots/manager/activate_manager_btn.png "activate manager btn")
+## Désactiver / réactiver un compte manager
 
-    > **Note:** Vous pouvez consulter le status chaque manager depuis la colonne **STATUT**.
+1. Cliquez sur <ActionButton type="status" /> pour accéder au formulaire de désactivation / réactivation :
+   ![List manager](/images/screenshots/manager/list.png 'List manager')
 
+2. Confirmez la modification de status du compte:
+   ![update manager](/images/screenshots/manager/activate.png 'update manager')
 
-2. Confirmez la modification de status du compte: 
-    ![update manager](/images/screenshots/manager/activate_manager.png "update manager")
+:::warning
 
-    > **Note:**  Le nombre de managers actifs est limité par les conditions de votre forfait. Veuillez en tenir compte lors de l'activation d'un manager. 
+Le nombre de managers actifs est limité par votre forfait. Veuillez en tenir compte lors de l'activation d'un manager.
+
+:::
 
 ---
 
-## **Lien de navigation**
+## Voir son profil
 
-- [_Retour au Sommaire_](table.md)  
-- [_Page précedente : Connexion à l'application_](login.md)  
-- [_Page suivante : Gestion des forfaits_](package.md)  
+Vous pouvez consulter les informations de votre propre compte à tout moment.
+
+1. Accédez à votre profil :<NavPath items={['COMPTE', 'PROFIL']} />
+
+   Vous y trouverez vos informations personnelles que vous pouvez modifier:
+   - _Nom et prénoms_
+   - _Email_
+   - _Nom d'utilisateur_
+   - _Numéro de téléphone_
+   - _Date de naissance_
+
+   ![Manager profile](/images/screenshots/manager/profile.png 'Manager profile')
+
+---
+
+## Voir ses permissions
+
+Vous pouvez consulter les rôles et permissions qui vous ont été attribués par le super-utilisateur.
+
+1. Accédez à vos permissions : <NavPath items={['COMPTE', 'MES PERMISSIONS']} />
+
+   Vous y trouverez la liste des permissions actives sur votre compte :
+
+   ![Manager permissions](/images/screenshots/manager/perm.png 'Manager permissions')
+
+:::info
+
+Les permissions sont configurées par l'adminstrateur. Si vous pensez avoir besoin d'accès supplémentaires, contactez votre administrateur.
+
+:::
