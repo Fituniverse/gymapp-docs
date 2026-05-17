@@ -29,6 +29,7 @@ const sidebars = {
     { type: 'doc', id: 'invoice', label: 'Gestion des factures' },
     { type: 'doc', id: 'event', label: 'Gestion des événements' },
     { type: 'doc', id: 'trash', label: 'Corbeille' },
+    { type: 'doc', id: 'gym', label: 'Gym' },
   ],
 };
 
