@@ -20,6 +20,7 @@ GYMAPP est une plateforme de gestion pour salles de sport, conçue pour accompag
 | 📦 Gestion de stock et ventes | Optimisez la gestion de votre stock et suivez vos ventes pour maximiser vos revenus                                |
 | 👤 Gestion des managers       | Attribuez des rôles et permissions clairs à vos managers et assurez un contrôle optimal sur vos opérations         |
 | 👥 Gestion de la clientèle    | Offrez une expérience client fluide et professionnelle grâce à une gestion centralisée et intuitive                |
+| 🔔 Rappels automatisés        | Envoyez des rappels automatisés à vos clients en à la fin de leurs périodes d'abonnement via Whatsapp & Email      |
 | 🌐 En ligne                   | Accédez à vos informations à tout moment et depuis n'importe quel appareil                                         |
 
 ---
