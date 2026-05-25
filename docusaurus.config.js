@@ -10,11 +10,11 @@ const config = {
     v4: true,
   },
 
-  url: 'https://chesterkxng.github.io',
-  baseUrl: '/Gym-App/',
+  url: 'https://fituniverse.github.io',
+  baseUrl: '/gymapp-docs/',
 
-  organizationName: 'Chesterkxng',
-  projectName: 'Gym-App',
+  organizationName: 'Fituniverse',
+  projectName: 'gymapp-docs',
   deploymentBranch: 'gh-pages',
   trailingSlash: false,
 
@@ -36,9 +36,9 @@ const config = {
       {
         docs: {
           sidebarPath: './sidebars.js',
-          routeBasePath: '/', // 👈 docs at root, no /docs/ prefix
+          routeBasePath: '/', // docs at root, no /docs/ prefix
         },
-        blog: false, // 👈 disable blog
+        blog: false,
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -53,12 +53,12 @@ const config = {
         alt: 'GymApp Logo',
         src: 'images/logo.png',
         srcDark: 'images/logo-white.png',
-        href: '/Gym-App/',
+        href: '/gymapp-docs/',
       },
       items: [
         {
           type: 'docSidebar',
-          sidebarId: 'docs', // 👈 matches sidebars.js
+          sidebarId: 'docs',
           position: 'left',
           label: 'DOCUMENTATION',
         },
