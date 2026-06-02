@@ -30,6 +30,20 @@ Vous pouvez mettre à jour les informations de votre salle de sport à tout mome
 
 ---
 
+## Uploader votre logo
+
+Vous pouvez ajouter le logo de votre salle depuis le même formulaire. Il apparaîtra sur les documents généres par l'application.
+
+      :::tip[Exigences]
+
+      - Formats acceptés : PNG, JPG ou SVG
+      - Taille 2 Mo maximum
+      - Format: ratio carré (1:1) recommandé.
+
+      :::
+
+---
+
 ## Configurer les paramètres de la salle
 
 Vous pouvez définir les paramètres globaux de votre salle de sport depuis l'interface de configuration.
