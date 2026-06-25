@@ -27,6 +27,7 @@ Pour ajouter un article, procédez comme suit :
      - _Prix unitaire_
      - _Quantité_
    - **Informations facultatives** :
+     - _Quantité seuil_
      - _Catégorie_ (cf. [Gestion des catégories](#gestion-des-catégories-darticles))
      - _Dimensions_
      - _Poids_
@@ -35,6 +36,17 @@ Pour ajouter un article, procédez comme suit :
      - _Description_
 
    ![Formulaire d'ajout](/images/screenshots/product/add.png 'adding Form')
+
+   :::tip[Quantité seuil]
+
+   Définissez le niveau minimal de stock souhaité pour cet article. Lorsqu'il devient inférieur ou égal à cette valeur, GYMAPP affiche une alerte de stock faible afin de vous aider à anticiper le réapprovisionnement.
+
+   L'état du stock est indiqué par un code couleur :
+   - 🟢 Vert : stock supérieur au seuil.
+   - 🟠 Orange : stock inférieur ou égal au seuil.
+   - 🔴 Rouge : stock épuisé (quantité nulle).
+
+   :::
 
 ---
 
