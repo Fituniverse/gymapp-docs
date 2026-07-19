@@ -28,6 +28,7 @@ Pour ajouter un séance, procédez comme suit :
      - _Email (facultatif)_
      - _Adresse (facultatif)_
    - **Informations de la séance** :
+     - _Mode de paiement_
      - _Forfait_ (cf. [Gestion des forfaits](package.md#gestion-des-forfaits))
      - _La date et l'heure (ajouté automatiquement)_
 
