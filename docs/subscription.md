@@ -29,6 +29,7 @@ Pour ajouter un abonnement, procédez comme suit :
      - _Email (facultatif)_
      - _Adresse (facultatif)_
    - **Informations de l'abonnement** :
+     - _Mode de paiement_
      - _Date de début_
      - _Nombre de mois_
      - _Forfait_ (cf. [Gestion des forfaits](package.md#gestion-des-forfaits))
