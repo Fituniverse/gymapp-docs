@@ -22,13 +22,15 @@ Vous pouvez mettre à jour les informations de votre salle de sport à tout mome
 
 3. Définissez la position de votre salle sur la carte en recherchant une adresse ou en cliquant directement sur l'emplacement souhaité. Pensez à zoomer suffisamment sur la carte avant de cliquer pour obtenir une localisation précise
 
-4. Enregistrez vos modifications :
+4. Définissez les jours et horaires d'ouverture/fermeture de votre salle
+
+5. Enregistrez vos modifications :
 
    ![Gym edit form](/images/screenshots/gym/edit.png 'Gym edit form')
 
    :::info
 
-   Ces informations apparaîtront sur les reçus destinés aux clients. La position définie sur la carte permet de localiser précisément votre salle et pourra être utilisée pour l'afficher à vos clients ou sur d'autres services de localisation. Si aucune position n'est définie, votre salle n'apparaîtra pas sur la carte.
+   Ces informations seront visibles par les clients. La position définie sur la carte permet de localiser précisément votre salle et pourra être utilisée pour l'afficher à vos clients ou sur d'autres services de localisation. Si aucune position n'est définie, votre salle n'apparaîtra pas sur la carte.
 
    :::
 
@@ -81,14 +83,5 @@ Vous pouvez définir les paramètres globaux de votre salle de sport depuis l'in
 
    :::
 
-   **Paramètres d'ouverture**
-   - _Heure d'ouverture_
-   - _Heure de fermeture_
 
    ![Gym settings](/images/screenshots/gym/setting.png 'Gym settings')
-
-   :::warning
-
-   En dehors des horaires d'ouverture définis, l'ajout de séances ne sera pas autorisé.
-
-   :::
