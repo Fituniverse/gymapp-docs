@@ -25,6 +25,7 @@ Vous pouvez ajouter un ou plusieurs forfaits pour gérer les souscriptions de vo
    - _Nom_
    - _Montant_
    - _Description_
+   - _Type_
    - _Périodicité_ (uniquement pour les forfaits d’abonnement)
    - _Durée_ (uniquement pour les forfaits d’abonnement)
 
