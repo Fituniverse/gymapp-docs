@@ -45,6 +45,20 @@ Vous accéderez aux détails du client, où vous trouverez l’historique comple
 1. Cliquez sur <ActionButton type="edit" /> pour accéder au formulaire de modification :
    ![customer edit btn](/images/screenshots/customer/list.png 'customer edit btn')
 
+
+:::danger[Propriété des données]
+
+Les utilisateurs de l’application mobile **FIT UNIVERSE** sont responsables de l’exactitude de leurs informations personnelles. Celles-ci ne pourront pas être modifiées ultérieurement (**absence du bouton**).
+
+:::
+
+![customer logged icon](/images/screenshots/customer/mobile.png 'customer logged icon')
+
+:::tip
+Les utilisateurs de l’application mobile **FIT UNIVERSE** sont facilement identifiables grâce à l’icône affichée à côté de leur nom.
+:::
+
+
 2. Modifiez les informations souhaitées et enregistrez :
 
 ![edit form](/images/screenshots/customer/edit.png 'edit form')
